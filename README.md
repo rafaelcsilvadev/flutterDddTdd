@@ -24,6 +24,8 @@ This repository explain how to use TDD and DDD Architecture with Flutter.
   * [States](lib/domain/states)
   * [Use Cases](lib/domain/use_cases)
 * [Foundation](lib/foundation)
+  * [Helpers](lib/foundation/helpers)
+  * [Exceptions](lib/foundation/exceptions)
 * [Presentation](lib/presentation)
   * [Routing](lib/presentation/routing)
   * [UI](lib/presentation/ui)
