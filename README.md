@@ -10,26 +10,26 @@ This repository explain how to use TDD and DDD Architecture with Flutter.
 
 **To use DDD, some directories were created.**
 
-* Application
-  * Config
-  * Injections 
-* Data
-  * Dao
-  * Resources
-    * Database
-    * Remote
-* Domain
-  * Events
-  * Managers
-  * States
-  * Use Cases
-* Foundation
-* Presentation
-  * Routing
-  * Ui
-    * Styles
-    * View
-    * View Model
+* [Application](lib/application)
+  * [Config](lib/application/config)
+  * [Injections](lib/application/injections)
+* [Data](lib/data)
+  * [Dao](lib/data/dao)
+  * [Resources](lib/data/resources)
+    * [Database](lib/data/resources/database)
+    * [Remote](lib/data/resources/remote)
+* [Domain](lib/domain)
+  * [Events](lib/domain/events)
+  * [Managers](lib/domain/managers)
+  * [States](lib/domain/states)
+  * [Use Cases](lib/domain/use_cases)
+* [Foundation](lib/foundation)
+* [Presentation](lib/presentation)
+  * [Routing](lib/presentation/routing)
+  * [UI](lib/presentation/ui)
+    * [Styles](lib/presentation/ui/styles)
+    * [View](lib/presentation/ui/view)
+    * [View Model](lib/presentation/ui/view_models)
 
 **OBS.:** If you want more information about these directory, It is proposed that you enter them and read the readme, code examples and access bibliography's links.
 
