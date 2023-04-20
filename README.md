@@ -1,16 +1,41 @@
-# gym
+# DDD and TDD Architecture With Flutter
 
-Gym
+This repository explain how to use TDD and DDD Architecture with Flutter.
 
-## Getting Started
+**To use TDD, three directories were created .**
 
-This project is a starting point for a Flutter application.
+1.  [Interactions](test/interactions);
+2.  [Unit](test/unit);
+3.  [Widget](test/widget);
 
-A few resources to get you started if this is your first Flutter project:
+**To use DDD, some directories were created.**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Application
+  * Config
+  * Injections 
+* Data
+  * Dao
+  * Resources
+    * Database
+    * Remote
+* Domain
+  * Events
+  * Managers
+  * States
+  * Use Cases
+* Foundation
+* Presentation
+  * Routing
+  * Ui
+    * Styles
+    * View
+    * View Model
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**OBS.:** If you want more information about these directory, It is proposed that you enter them and read the readme, code examples and access bibliography's links.
+
+## Bibliography
+
+* [Clean Architecture — DDD for my Flutter, Spring and React projects - Maxime F.](https://mcssym.medium.com/clean-architecture-ddd-for-my-flutter-spring-and-react-projects-5be666f40ae2)
+* [Flutter - Teste de Integração (Integration Test ou E2E Flutter) - Prof. Diego Antunes](https://www.youtube.com/watch?v=GEvNj7uogYE&ab_channel=Prof.DiegoAntunes)
+
+ 
