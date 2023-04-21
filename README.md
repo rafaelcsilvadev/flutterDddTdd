@@ -15,12 +15,14 @@ This repository explain how to use TDD and DDD Architecture with Flutter.
   * [Injections](lib/application/injections)
 * [Data](lib/data),
   * [Dao](lib/data/dao)
+  * [Provider](lib/data/provider)
   * [Repository](lib/data/repository)
   * [Models](lib/data/models)
 * [Domain](lib/domain)
-  * [Controller](lib/domain/manager)
+  * [Manager](lib/domain/manager)
   * [Entity](lib/domain/entity)
   * [Factory](lib/domain/factory)
+  * [Services](lib/domain/services)
 * [Foundation](lib/foundation)
   * [Helpers](lib/foundation/helpers)
   * [Exceptions](lib/foundation/exceptions)
@@ -31,6 +33,10 @@ This repository explain how to use TDD and DDD Architecture with Flutter.
     * [Screens](lib/presentation/view/screens)
     * [Widgets](lib/presentation/view/widgets)
   * [View Model](lib/presentation/view_models)
+
+**DDD Flow**
+
+![ddd_flow](assets/ddd_flow.png)
 
 **OBS.:** If you want more information about these directory, It is proposed that you enter them and read the readme, code examples and access bibliography's links.
 
