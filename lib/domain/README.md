@@ -1,3 +1,3 @@
 ## Test Domain
 
-This directory is the business logic. Can be organized for area. 
+This directory contains the business logic and can be organized for area. 
