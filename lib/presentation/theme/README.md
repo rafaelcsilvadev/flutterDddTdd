@@ -1,0 +1,3 @@
+## Test Theme
+
+This directory contains the application themes such as example, colors, fonts...
